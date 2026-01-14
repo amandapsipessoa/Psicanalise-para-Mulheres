@@ -95,3 +95,12 @@ footer {
   font-size: 13px;
   color: #777;
 }
+.foto-perfil {
+  width: 140px;
+  height: 140px;
+  max-width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
