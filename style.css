@@ -96,11 +96,11 @@ footer {
   color: #777;
 }
 .foto-perfil {
-  width: 140px;
-  height: 140px;
-  max-width: 140px;
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
 }
