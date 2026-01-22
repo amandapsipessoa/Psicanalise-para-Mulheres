@@ -106,7 +106,33 @@ footer {
   margin: 30px auto;
 }
 /* ===== Relatos de pacientes ===== */
+/* RELATOS DE PACIENTES */
 
+.relatos {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.relato-card {
+  background: rgba(255, 255, 255, 0.65); /* transparência elegante */
+  border-radius: 12px;
+  padding: 28px 26px;
+  margin: 32px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.relato-card p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.relato-card footer {
+  font-size: 13px;
+  color: #8a8a8a;
+}
 .relatos {
   margin-top: 60px;
 }
