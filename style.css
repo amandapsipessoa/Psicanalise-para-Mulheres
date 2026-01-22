@@ -105,3 +105,27 @@ footer {
   display: block;
   margin: 30px auto;
 }
+/* ===== Relatos de pacientes ===== */
+
+.relatos {
+  margin-top: 60px;
+}
+
+.relato {
+  max-width: 700px;
+  margin: 40px auto;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+
+.relato p {
+  margin: 0;
+}
+
+.relato footer {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #8a8a8a;
+  text-align: center;
+}
