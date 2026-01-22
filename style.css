@@ -129,3 +129,8 @@ footer {
   color: #8a8a8a;
   text-align: center;
 }
+.relato {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 28px 24px;
+  border-radius: 12px;
+}
