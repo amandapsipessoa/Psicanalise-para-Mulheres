@@ -160,3 +160,121 @@ footer {
   padding: 28px 24px;
   border-radius: 12px;
 }
+
+
+/* ===== Seção de E-books ===== */
+.ebooks {
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
+
+.ebooks .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ebooks h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.ebooks-intro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.ebooks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.ebook-card {
+  background: linear-gradient(135deg, #f1e7e3 0%, #f8f6f4 100%);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ebook-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.ebook-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.ebook-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin: 20px 0;
+  color: #2b2b2b;
+  line-height: 1.4;
+}
+
+.ebook-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.ebook-card .button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #cfa5a0;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.ebook-card .button:hover {
+  background-color: #b8918c;
+  transform: scale(1.05);
+}
+
+.ebook-card .button:active {
+  transform: scale(0.98);
+}
+
+/* Responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+  .ebooks {
+    padding: 60px 20px;
+  }
+
+  .ebooks h2 {
+    font-size: 28px;
+  }
+
+  .ebooks-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ebook-card {
+    padding: 30px 20px;
+  }
+
+  .ebook-card h3 {
+    font-size: 20px;
+  }
+}
